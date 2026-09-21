@@ -231,12 +231,3 @@ competition's registration window opening or about to close).
   register endpoint concurrently to confirm `bookedSpots` never exceeds `maxSpots` in practice,
   not just in the unit-level reasoning above).
 
-## 8. Screen recording
-
-I wasn't able to produce a screen recording as part of generating this project (no device
-simulator/emulator or camera available in this environment). To record one: run the backend
-(`npm run dev`) and seed it (`npm run seed`), run `npx expo start` and open the app in a
-simulator, then screen-record: (1) the loaded screen matching the design, (2) registering as a
-fresh (non-seeded) user and watching "spots left" decrement, (3) attempting to register twice
-and seeing the "already registered" rejection, (4) — once the competition's submission window
-is open — uploading a file and watching the button change to "Update Submission".

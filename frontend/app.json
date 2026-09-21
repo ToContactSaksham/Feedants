@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "Feedants",
+    "slug": "feedants-competition-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "extra": {
+      "apiBaseUrl": "http://localhost:5000/api"
+    },
+    "ios": { "supportsTablet": true },
+    "android": {}
+  }
+}
